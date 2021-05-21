@@ -21,10 +21,10 @@ lmissarr = []
 ship = Classes.Ship()
 score = 0
 size = width, height = 640, 640
-myfont = pygame.font.Font('./Pixel-Miners.otf', 30)
+myfont = pygame.font.Font('static/Pixel-Miners.otf', 30)
 screen = pygame.display.set_mode(size)
-boom = pygame.mixer.Sound('Explosion+1.wav')
-pui = pygame.mixer.Sound('shoo.wav')
+boom = pygame.mixer.Sound('static/Explosion+1.wav')
+pui = pygame.mixer.Sound('static/shoo.wav')
 alienx = Classes.alieni(random.randint(0, 7) * 80, random.randint(0, 1) * 80)
 alieniarr.append(alienx)
 

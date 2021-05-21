@@ -9,12 +9,12 @@ import Classes
 pygame.init()
 pygame.mixer.init()
 
-shipimg = pygame.image.load("ship.png")
-alieniimg = pygame.image.load("alieni.png")
-alienlimg = pygame.image.load("alienl.png")
-imissileimg = pygame.image.load("imissile.png")
-lmissileimg = pygame.image.load("lmissile.png")
-bg = pygame.image.load("Wiki-background.jpg")
+shipimg = pygame.image.load("static/ship.png")
+alieniimg = pygame.image.load("static/alieni.png")
+alienlimg = pygame.image.load("static/alienl.png")
+imissileimg = pygame.image.load("static/imissile.png")
+lmissileimg = pygame.image.load("static/lmissile.png")
+bg = pygame.image.load("static/Wiki-background.jpg")
 
 # Instructions
 os.system('clear')
